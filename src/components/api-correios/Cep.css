@@ -1,0 +1,22 @@
+.calcula{
+    padding-left: 5px;
+    min-height: 123.4px ;
+}
+input{
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    height: 48px;
+}
+button{
+    background-color: #0091ea;
+    border: 1px solid #0091ea;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+form h4{
+    margin-bottom: 5px;
+}
