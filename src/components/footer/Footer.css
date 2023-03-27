@@ -1,57 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #333333;
-    color: #ffffff;
-    padding: 20px 0px;
-    box-sizing: border-box; 
-  }
-  
-  footer span {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  footer span i {
-    color: #ff6b6b;
-    margin: 0 5px;
-    font-size: 1.3em;
-  }
-  
-  footer span strong {
-    font-size: 1.3em;
-  }
-  
-  footer span .text {
-    font-size: 1.3em;
-    color: #ff6b6b;
-  }
-  
-  footer .redes {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  
-  footer .redes a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    margin: 0 10px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  footer .redes a:hover {
-    background-color: #ff6b6b;
-  }
-  
-  footer .redes .iconColor {
-    color: #333333;
-    font-size: 18px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer span {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+footer span i {
+  color: #ff6b6b;
+  margin: 0 5px;
+  font-size: 1.3em;
+}
+
+footer span strong {
+  font-size: 1.3em;
+}
+
+footer span .text {
+  font-size: 1.3em;
+  color: #ff6b6b;
+  font-family: 'Fasthand', cursive;
+}
+
+footer .redes {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+footer .redes a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  margin: 0 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+footer .redes a:hover {
+  background-color: #ff6b6b;
+}
+
+footer .redes .iconColor {
+  color: #333333;
+  font-size: 18px;
+}

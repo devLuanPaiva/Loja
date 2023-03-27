@@ -7,6 +7,7 @@ import Im4 from "./imagem5.png"
 import CalcularCep from "../api-correios/Cep"
 import { BsHeart } from "react-icons/bs";
 import { FaTruckMoving } from "react-icons/fa";
+import Tamanhos from "../tamanhos/Tamanhos"
 
 const Main = () => {
     const [zoom, setZoom] = useState(false);
@@ -77,17 +78,7 @@ const Main = () => {
                         <h2>R$284,99 no Pix</h2>
                         <h3>Ou R$299,99 em até 10x sem juros</h3>
                     </div>
-                    <h3 id="tamanhos">Tamanhos</h3>
-                    <div className="tamanhos">
-                        <div className="numero">35</div>
-                        <div className="numero">36</div>
-                        <div className="numero naoTem">37</div>
-                        <div className="numero naoTem">38</div>
-                        <div className="numero">39</div>
-                        <div className="numero naoTem">40</div>
-                        <div className="numero">41</div>
-                        <div className="numero">42</div>
-                    </div>
+                    <Tamanhos/>
                     <CalcularCep/>
                     <div className="comprar">
                         <div><button id="comprar">Comprar</button></div>
