@@ -31,6 +31,73 @@ nav > a{
     position: absolute;
     color: black;
     top: 33px;
-    left: 800px;
+    left: 52vw;
     font-size: 20px;
+}
+@media (max-width: 1460px){
+    #lupa{
+        left: 54vw;
+    }
+}
+@media (max-width: 1320px){
+    #lupa{
+        left: 56vw;
+    }
+}
+@media (max-width: 1220px){
+    #lupa{
+        left: 58vw;
+    }
+}
+@media (max-width: 1120px){
+    #lupa{
+        left: 60vw;
+    }
+}
+
+
+@media (max-width: 1030px){
+    #lupa{
+        left: 70vw;
+        top: 100px;
+    }
+    header {
+        flex-direction: column;
+    }
+  
+    nav {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+  
+    #pesquisa{
+        max-width: 90vw;
+        margin-bottom: 20px;
+        background-color: re;
+    }
+}
+@media(max-width: 830px){
+    #lupa{
+        left: 74vw;
+    }
+}
+@media(max-width: 720px){
+    #lupa{
+        left: 77vw;
+    }
+}
+@media(max-width: 640px){
+    #lupa{
+        left: 80vw;
+    }
+}
+@media(max-width: 580px){
+    #lupa{
+        left: 84vw;
+    }
+}
+@media(max-width: 500px){
+    #lupa{
+        left: 88vw;
+    }
 }

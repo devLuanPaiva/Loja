@@ -37,7 +37,7 @@ const Main = () => {
                         style={{
                             backgroundImage: `url(${imagem})`,
                             backgroundPosition: `${backgroundPosition.x}% ${backgroundPosition.y}%`,
-                            backgroundSize: zoom ? "200%" : "cover",
+                            backgroundSize: zoom ? "150%" : "cover",
                             transition: "background-position 0.3s ease-out, background-size 0.3s ease-out",
                         }}
                     ></div>

@@ -119,3 +119,28 @@ main{
     align-items: baseline;
     max-height: 50px;
 }
+@media(max-width: 1200px){
+    main{
+        grid-template-columns: 50% 40%;
+    }
+}
+@media(max-width: 1030px){
+    main{
+        max-height: 1200px;
+        grid-template-columns: 100%;
+        grid-template-rows: 600px 600px;
+        grid-template-areas: 
+        'apresentacao'
+        'descricao';
+        gap: 0%;
+    }
+    .apreProduto{
+        grid-template-columns: 100%;
+        grid-template-rows: 80% 10%;
+        grid-template-areas: 'principal' 'amostra';
+        gap: 5%;
+    }
+    .informacoes{
+        padding-left: 40px;
+    }
+}
