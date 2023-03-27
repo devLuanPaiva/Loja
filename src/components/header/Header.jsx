@@ -18,9 +18,9 @@ const Header = () =>
                 </form>
             </div>
             <nav className="dir">
-                <a href="https://luan029.github.io/PointDoAcai/"><IoPersonSharp/>Entrar</a>
-                <a href="https://luan029.github.io/PointDoAcai/"><IoHeartSharp/>Lista de Desejos</a>
-                <a href="https://luan029.github.io/PointDoAcai/"><IoMdCart/> Carrinho</a>
+                <a href="https://luan029.github.io/Loja/"><IoPersonSharp/>Entrar</a>
+                <a href="https://luan029.github.io/Loja/"><IoHeartSharp/>Lista de Desejos</a>
+                <a href="https://luan029.github.io/Loja/"><IoMdCart/> Carrinho</a>
             </nav>
         </header>
     </React.Fragment>

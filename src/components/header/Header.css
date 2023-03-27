@@ -1,9 +1,10 @@
 header{
-    background-color: blueviolet;
+    background-color: #333333;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
+    font-size: 1.2em;
 }
 nav{
     display: flex;
@@ -30,7 +31,7 @@ nav > a{
 #lupa{
     position: absolute;
     color: black;
-    top: 33px;
+    top: 40px;
     left: 52vw;
     font-size: 20px;
 }
@@ -51,15 +52,18 @@ nav > a{
 }
 @media (max-width: 1120px){
     #lupa{
-        left: 60vw;
+        left: 58vw;
+    }
+    #pesquisa{
+        width: 500px;
     }
 }
 
 
 @media (max-width: 1030px){
     #lupa{
-        left: 70vw;
-        top: 100px;
+        left: 72vw;
+        top: 115px;
     }
     header {
         flex-direction: column;
@@ -78,26 +82,26 @@ nav > a{
 }
 @media(max-width: 830px){
     #lupa{
-        left: 74vw;
+        left: 76vw;
     }
 }
 @media(max-width: 720px){
     #lupa{
-        left: 77vw;
+        left: 81vw;
     }
 }
 @media(max-width: 640px){
     #lupa{
-        left: 80vw;
+        left: 84vw;
     }
 }
 @media(max-width: 580px){
     #lupa{
-        left: 84vw;
+        left: 86vw;
     }
 }
 @media(max-width: 500px){
     #lupa{
-        left: 88vw;
+        left: 90vw;
     }
 }
