@@ -11,7 +11,23 @@ import { FaTruckMoving } from "react-icons/fa";
 const Main = () => {
     const [zoom, setZoom] = useState(false);
     const [backgroundPosition, setBackgroundPosition] = useState({ x: 0, y: 0 });
-
+    const handleTouchStart = (e) => {
+        setZoom(true);
+        handleTouchMove(e);
+    };
+    const handleTouchMove = (e) => {
+        if (zoom) {
+          const { left, top, width, height } = e.target.getBoundingClientRect();
+          const touch = e.touches[0];
+          const x = ((touch.pageX - left) / width) * 100;
+          const y = ((touch.pageY - top) / height) * 100;
+          setBackgroundPosition({ x, y });
+        }
+      };
+    
+      const handleTouchEnd = (e) => {
+        setZoom(false);
+    };
     const handleMouseMove = (e) => {
         if (zoom) {
             const { left, top, width, height } = e.target.getBoundingClientRect();
@@ -25,12 +41,16 @@ const Main = () => {
     const trocarImagem = (im) =>{
         setImagem(im)
     }
+
     return (
         <React.Fragment>
             <main>
                 <section className="apreProduto">
                     <div
                         className="imgPrincipal"
+                        onTouchStart={handleTouchStart}
+                        onTouchMove={handleTouchMove}
+                        onTouchEnd={handleTouchEnd}
                         onMouseEnter={() => setZoom(true)}
                         onMouseLeave={() => setZoom(false)}
                         onMouseMove={handleMouseMove}
