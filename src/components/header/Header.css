@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-header{
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+header {
     background-color: #333333;
     display: flex;
     justify-content: space-around;
@@ -8,108 +9,95 @@ header{
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     width: 35%;
     align-items: center;
 }
-nav > a{
+
+nav>a {
     color: white;
     text-decoration: none;
 }
-nav >a:hover{
+
+nav>a:hover {
     background-color: #ff6b6b;
     padding: 5px;
     transition: background-color 0.2s ease-in-out;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    cursor: pointer;
 }
-.logo{
+
+
+.logo {
     display: flex;
     align-items: baseline;
+    cursor: pointer;
+    font-family: 'Alkatra', cursive;
 }
-.logo > img{
+
+.logo>img {
     width: 50px;
     height: 50px;
 }
-#pesquisa{
-    width: 550px;
-    border-radius: 25px;
+.buscar{
+    width: 40%;
 }
-#lupa{
+.buscar form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#pesquisa {
+    width: 100%;
+    border-radius: 25px;
+    padding: 0px 10px;
+}
+
+#lupa {
     position: absolute;
     color: black;
-    top: 40px;
-    left: 52vw;
+    top: 52%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
     font-size: 20px;
 }
-@media (max-width: 1460px){
-    #lupa{
-        left: 54vw;
-    }
-}
-@media (max-width: 1320px){
-    #lupa{
-        left: 56vw;
-    }
-}
-@media (max-width: 1220px){
-    #lupa{
-        left: 58vw;
-    }
-}
-@media (max-width: 1120px){
-    #lupa{
-        left: 58vw;
-    }
-    #pesquisa{
-        width: 500px;
+#lupa svg {
+    height: 20px;
+    width: 20px;
+    fill: #aaa;
+  }
+@media (max-width: 1120px) {
+    
+
+    .buscar {
+        width: 40%;
     }
 }
 
 
-@media (max-width: 1030px){
-    #lupa{
-        left: 72vw;
-        top: 115px;
-    }
+@media (max-width: 1030px) {
+
     header {
         flex-direction: column;
     }
-  
+
     nav {
         width: 100%;
         margin-bottom: 10px;
     }
-  
-    #pesquisa{
+
+    .buscar {
+        width: 80%;
         max-width: 90vw;
         margin-bottom: 20px;
-        background-color: re;
+        
     }
 }
-@media(max-width: 830px){
-    #lupa{
-        left: 76vw;
-    }
-}
-@media(max-width: 720px){
-    #lupa{
-        left: 81vw;
-    }
-}
-@media(max-width: 640px){
-    #lupa{
-        left: 84vw;
-    }
-}
-@media(max-width: 580px){
-    #lupa{
-        left: 86vw;
-    }
-}
-@media(max-width: 500px){
-    #lupa{
-        left: 90vw;
-    }
-}
+

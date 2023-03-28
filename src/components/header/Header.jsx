@@ -9,11 +9,11 @@ const Header = () =>
         <header>
             <div className="logo">
                 <img src={Imagem} alt="logo" />
-                <h1>Loja</h1>
+                <h1>TêniShop</h1>
             </div>
-            <div>
+            <div className="buscar">
                 <form>
-                    <input type="text" id="pesquisa" placeholder="O que você está procurando?" />
+                    <input type="text" id="pesquisa" placeholder="O que você está procurando?"/>
                     <div id="lupa"><ImSearch/></div>
                 </form>
             </div>

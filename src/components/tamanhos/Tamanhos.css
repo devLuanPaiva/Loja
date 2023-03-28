@@ -5,7 +5,7 @@
     padding: 5px;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #fff;
+    background-color: #f0f0f0;
     border: 1px solid #eee;
     border-radius: 3px;
 }
@@ -18,12 +18,20 @@
     text-align: center;
     margin: 1.3px;
 }
+.numero:hover{
+    cursor: pointer;
+    background-color: #9bc5db;
+}
 #tamanhos{
     margin-bottom: 3px;
 }
 .naoTem{
     background-color: rgb(157, 155, 155);
 
+}
+.naoTem:hover{
+    background-color: rgb(126, 125, 125);
+    cursor:not-allowed;
 }
 .selected {
     background-color: #0077be;
