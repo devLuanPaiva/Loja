@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Loja/static/css/main.3a051e75.css",
-    "main.js": "/Loja/static/js/main.b437fa20.js",
+    "main.css": "/Loja/static/css/main.7489a797.css",
+    "main.js": "/Loja/static/js/main.7aa605c2.js",
     "static/js/787.b69064a0.chunk.js": "/Loja/static/js/787.b69064a0.chunk.js",
     "static/media/imagem5.png": "/Loja/static/media/imagem5.4dd147a390c073c34ee9.png",
     "static/media/imagem3.png": "/Loja/static/media/imagem3.0cb9f775588feefe5729.png",
@@ -9,12 +9,12 @@
     "static/media/imagem2.png": "/Loja/static/media/imagem2.82189e314b165ee8041a.png",
     "static/media/tenis.png": "/Loja/static/media/tenis.df9b0a1914c9a059695e.png",
     "index.html": "/Loja/index.html",
-    "main.3a051e75.css.map": "/Loja/static/css/main.3a051e75.css.map",
-    "main.b437fa20.js.map": "/Loja/static/js/main.b437fa20.js.map",
+    "main.7489a797.css.map": "/Loja/static/css/main.7489a797.css.map",
+    "main.7aa605c2.js.map": "/Loja/static/js/main.7aa605c2.js.map",
     "787.b69064a0.chunk.js.map": "/Loja/static/js/787.b69064a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a051e75.css",
-    "static/js/main.b437fa20.js"
+    "static/css/main.7489a797.css",
+    "static/js/main.7aa605c2.js"
   ]
 }
