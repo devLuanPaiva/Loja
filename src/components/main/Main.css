@@ -45,6 +45,10 @@ main{
     width: 45px;
     height: 45px;
 }
+.imgsPequenas> img:hover{
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
 .informacoes h1{
     font-family: 'Oswald', sans-serif;
     font-weight: bolder;
@@ -76,8 +80,12 @@ main{
     box-sizing: border-box;
     margin-top: -55px;
 }
+#comprar:hover{
+    cursor: pointer;
+    background-color: #ff691ede;
+}
 #favoritar{
-    background-color: #adabab;
+    background-color: #adababdf;
     border: 1px solid #adabab;
     height: 50px;
     width: 50px;

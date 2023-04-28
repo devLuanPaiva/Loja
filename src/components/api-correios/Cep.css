@@ -17,6 +17,10 @@ button{
     margin-left: 5px;
     font-size: 20px;
 }
+button:hover{
+    cursor: pointer;
+    background-color: #0090eacd;
+}
 form h4{
     margin-bottom: 5px;
 }

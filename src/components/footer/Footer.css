@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 footer {
   display: flex;
   flex-direction: column;
@@ -9,6 +10,8 @@ footer {
   padding: 20px 0px;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  bottom: 0%;
 }
 
 footer span {
