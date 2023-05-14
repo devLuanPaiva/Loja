@@ -1,0 +1,14 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+}
+.login-container > form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 60%;
+    min-height: 60vh;
+    padding: 5px;
+    box-sizing: border-box;
+}
