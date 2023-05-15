@@ -8,11 +8,10 @@ import { IoMdCart } from "react-icons/io";
 const Header = () =>
     <React.Fragment>
         <header>
-            <Link to="/">
+            <Link id="titulo" to="/">
                 <div className="logo">
                     <img src={Imagem} alt="logo" />
-                    <h1>TêniShop</h1>
-                
+                    <h1 >TêniShop</h1>                
                 </div>
             </Link>
             <div className="buscar">

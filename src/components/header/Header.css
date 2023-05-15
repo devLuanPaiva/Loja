@@ -38,7 +38,9 @@ nav>a:hover {
     font-family: 'Alkatra', cursive;
     color: white;
 }
-
+#titulo{
+    text-decoration: none;
+}
 .logo>img {
     width: 50px;
     height: 50px;
@@ -75,8 +77,6 @@ nav>a:hover {
     fill: #aaa;
   }
 @media (max-width: 1120px) {
-    
-
     .buscar {
         width: 40%;
     }
