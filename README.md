@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Loja - Página de Apresentação de Produto com Zoom Interativo
+Bem-vindo ao repositório Loja! Este projeto foi desenvolvido em React.js e tem como objetivo criar uma página de apresentação de um produto específico, oferecendo uma experiência interativa e envolvente para os usuários. A principal característica deste projeto é a possibilidade de dar zoom e movimentar a imagem do produto utilizando o cursor ou o toque em dispositivos móveis.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Funcionalidades
++ Zoom Interativo: Ao passar o cursor ou tocar na imagem do produto, ela automaticamente irá dar zoom e permitir que o usuário a movimente conforme o movimento do mouse ou do dedo, oferecendo uma visualização detalhada e imersiva do produto.
 
-## Available Scripts
++ Consulta de CEP com ViaCEP: Implementamos uma conexão com a API ViaCEP que possibilita ao usuário inserir o CEP e obter como resultado a cidade e o estado relacionados. Isso facilita o preenchimento de informações durante o processo de compra e torna a experiência mais eficiente.
 
-In the project directory, you can run:
++ Tela de Cadastro e Login (Em Desenvolvimento): Estamos trabalhando no desenvolvimento de uma tela de cadastro e login integrada ao Firebase. Em breve, os usuários poderão criar contas personalizadas, realizar login de forma segura e acessar recursos exclusivos no site.
 
-### `npm start`
+## Como utilizar o projeto
+Para utilizar o projeto Loja em sua máquina local, siga os passos abaixo:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Certifique-se de ter o Node.js instalado em sua máquina. Caso precise instalá-lo, você pode encontrar o instalador em: https://nodejs.org/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Clone este repositório em sua máquina local usando o seguinte comando:
+   `git clone https://github.com/Luan029/Loja.git`
+   1. Acesse o diretório do projeto:`cd Loja`
+   2. Instale as dependências necessárias através do npm ou yarn: `npm install` ou `yarn install`
+   3. Após a conclusão da instalação das dependências, inicie o servidor de desenvolvimento: `npm start` ou `yarn start`
+   4. O projeto estará disponível em seu navegador no endereço `http://localhost:3000`.
+## Licença
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+## Agradecimentos
+Esperamos que este projeto seja útil e proporcione uma experiência interativa e interessante para os usuários. Fique à vontade para utilizar, modificar e contribuir para torná-lo ainda melhor! Em caso de dúvidas ou sugestões, sinta-se à vontade para entrar em contato.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Obrigado por utilizar o projeto Loja! 😊
